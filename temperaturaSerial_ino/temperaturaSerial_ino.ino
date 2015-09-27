@@ -35,5 +35,5 @@ void loop() {
         datos = datos+1;
     }
   }
-  delay(1000);
+  delay(30000);
 }
