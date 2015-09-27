@@ -1,0 +1,25 @@
+{
+  "name": "receptor-temperatura",
+  "version": "1.0.0",
+  "description": "Recibe la temperatura por medio de serial y lo registra a un documento de excel y una base de datos de mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "temperatura",
+    "temperature",
+    "sensor",
+    "arduino",
+    "excel",
+    "node",
+    "mongodb"
+  ],
+  "author": "dahngeek",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.1.8",
+    "msexcel-builder": "0.0.2",
+    "serialport": "^1.7.4"
+  }
+}
